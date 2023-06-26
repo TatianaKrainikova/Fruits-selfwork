@@ -1,10 +1,14 @@
-package app.views;
+package app;
 
 import app.controllers.ReadData;
 import app.models.Fruit;
 import java.util.List;
 
-public class FruitView {
+public class Launch {
+
+    public static void main(String[] args) {
+        showData(getData());
+    }
 
     private static List<Fruit> getData() {
         ReadData readData = new ReadData();
