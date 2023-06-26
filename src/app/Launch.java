@@ -16,9 +16,10 @@ public class Launch {
     }
 
     private static void showData(List<Fruit> fruits) {
-        int count = 0;
+        int count = 1;
         for (Fruit fruit : fruits) {
             System.out.printf("%d. %s%n%s%n%n", count, fruit.name, fruit.description);
+            count++;
         }
     }
 }
