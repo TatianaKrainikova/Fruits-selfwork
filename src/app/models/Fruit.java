@@ -2,8 +2,8 @@ package app.models;
 
 public class Fruit {
 
-    String name;
-    String description;
+    public String name;
+    public String description;
 
     public Fruit(String name, String description) {
         this.name = name;
